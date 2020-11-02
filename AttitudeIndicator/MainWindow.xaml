@@ -8,6 +8,8 @@
         Title="MainWindow" Height="400" Width="350" ResizeMode="CanMinimize">
     <Grid Width="300" Height="300">
         <Canvas Height="600" Width="300" VerticalAlignment="Center">
+            <Rectangle Width="300" Height="300" Fill="Brown" Stroke="Transparent" Canvas.Top="300"/>
+            <Rectangle Width="300" Height="300" Fill="SkyBlue" Stroke="Transparent" Canvas.Top="0"/>
             <Line X1="75"    Y1="00"  X2="225"   Y2="00"  Stroke="Black" StrokeThickness="1"/>
             <Line X1="112.5" Y1="25"  X2="187.5" Y2="25"  Stroke="Black" StrokeThickness="1"/>
             <Line X1="75"    Y1="50"  X2="225"   Y2="50"  Stroke="Black" StrokeThickness="1"/>
@@ -20,31 +22,31 @@
             <Line X1="112.5" Y1="225" X2="187.5" Y2="225" Stroke="Black" StrokeThickness="1"/>
             <Line X1="75"    Y1="250" X2="225"   Y2="250" Stroke="Black" StrokeThickness="1"/>
             <Line X1="112.5" Y1="275" X2="187.5" Y2="275" Stroke="Black" StrokeThickness="1"/>
-            <Line X1="0"     Y1="300" X2="300"   Y2="300" Stroke="Black" StrokeThickness="1"/>
-            <Line X1="112.5" Y1="325" X2="187.5" Y2="325" Stroke="Black" StrokeThickness="1"/>
-            <Line X1="75"    Y1="350" X2="225"   Y2="350" Stroke="Black" StrokeThickness="1"/>
-            <Line X1="112.5" Y1="375" X2="187.5" Y2="375" Stroke="Black" StrokeThickness="1"/>
-            <Line X1="75"    Y1="400" X2="225"   Y2="400" Stroke="Black" StrokeThickness="1"/>
-            <Line X1="112.5" Y1="425" X2="187.5" Y2="425" Stroke="Black" StrokeThickness="1"/>
-            <Line X1="75"    Y1="450" X2="225"   Y2="450" Stroke="Black" StrokeThickness="1"/>
-            <Line X1="112.5" Y1="475" X2="187.5" Y2="475" Stroke="Black" StrokeThickness="1"/>
-            <Line X1="75"    Y1="500" X2="225"   Y2="500" Stroke="Black" StrokeThickness="1"/>
-            <Line X1="112.5" Y1="525" X2="187.5" Y2="525" Stroke="Black" StrokeThickness="1"/>
-            <Line X1="75"    Y1="550" X2="225"   Y2="550" Stroke="Black" StrokeThickness="1"/>
-            <Line X1="112.5" Y1="575" X2="187.5" Y2="575" Stroke="Black" StrokeThickness="1"/>
-            <Line X1="75"    Y1="600" X2="225"   Y2="600" Stroke="Black" StrokeThickness="1"/>
+            <Line X1="0"     Y1="300" X2="300"   Y2="300" Stroke="White" StrokeThickness="1"/>
+            <Line X1="112.5" Y1="325" X2="187.5" Y2="325" Stroke="White" StrokeThickness="1"/>
+            <Line X1="75"    Y1="350" X2="225"   Y2="350" Stroke="White" StrokeThickness="1"/>
+            <Line X1="112.5" Y1="375" X2="187.5" Y2="375" Stroke="White" StrokeThickness="1"/>
+            <Line X1="75"    Y1="400" X2="225"   Y2="400" Stroke="White" StrokeThickness="1"/>
+            <Line X1="112.5" Y1="425" X2="187.5" Y2="425" Stroke="White" StrokeThickness="1"/>
+            <Line X1="75"    Y1="450" X2="225"   Y2="450" Stroke="White" StrokeThickness="1"/>
+            <Line X1="112.5" Y1="475" X2="187.5" Y2="475" Stroke="White" StrokeThickness="1"/>
+            <Line X1="75"    Y1="500" X2="225"   Y2="500" Stroke="White" StrokeThickness="1"/>
+            <Line X1="112.5" Y1="525" X2="187.5" Y2="525" Stroke="White" StrokeThickness="1"/>
+            <Line X1="75"    Y1="550" X2="225"   Y2="550" Stroke="White" StrokeThickness="1"/>
+            <Line X1="112.5" Y1="575" X2="187.5" Y2="575" Stroke="White" StrokeThickness="1"/>
+            <Line X1="75"    Y1="600" X2="225"   Y2="600" Stroke="White" StrokeThickness="1"/>
             <TextBlock Text="30" FontSize="16" Canvas.Left="225" Canvas.Top="-5"/>
             <TextBlock Text="25" FontSize="16" Canvas.Left="225" Canvas.Top="39"/>
             <TextBlock Text="20" FontSize="16" Canvas.Left="225" Canvas.Top="90"/>
             <TextBlock Text="15" FontSize="16" Canvas.Left="225" Canvas.Top="138"/>
             <TextBlock Text="10" FontSize="16" Canvas.Left="225" Canvas.Top="190"/>
-            <TextBlock Text="5" FontSize="16" Canvas.Left="225" Canvas.Top="237"/>
-            <TextBlock Text="5" FontSize="16" Canvas.Left="225" Canvas.Top="337"/>
-            <TextBlock Text="10" FontSize="16" Canvas.Left="225" Canvas.Top="390"/>
-            <TextBlock Text="15" FontSize="16" Canvas.Left="225" Canvas.Top="437"/>
-            <TextBlock Text="20" FontSize="16" Canvas.Left="225" Canvas.Top="488"/>
-            <TextBlock Text="25" FontSize="16" Canvas.Left="225" Canvas.Top="538"/>
-            <TextBlock Text="30" FontSize="16" Canvas.Left="225" Canvas.Top="582"/>
+            <TextBlock Text="5"  FontSize="16" Canvas.Left="225" Canvas.Top="237"/>
+            <TextBlock Text="5"  FontSize="16" Canvas.Left="225" Canvas.Top="337" Foreground="White"/>
+            <TextBlock Text="10" FontSize="16" Canvas.Left="225" Canvas.Top="390" Foreground="White"/>
+            <TextBlock Text="15" FontSize="16" Canvas.Left="225" Canvas.Top="437" Foreground="White"/>
+            <TextBlock Text="20" FontSize="16" Canvas.Left="225" Canvas.Top="488" Foreground="White"/>
+            <TextBlock Text="25" FontSize="16" Canvas.Left="225" Canvas.Top="538" Foreground="White"/>
+            <TextBlock Text="30" FontSize="16" Canvas.Left="225" Canvas.Top="582" Foreground="White"/>
         </Canvas>
     </Grid>
 </Window>
